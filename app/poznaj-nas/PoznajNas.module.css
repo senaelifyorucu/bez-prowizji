@@ -1,0 +1,125 @@
+/* styles/PoznajNas.module.css */
+.container {
+    padding: 20px;
+  }
+  
+  .section {
+    margin-bottom: 40px;
+  }
+  
+  .title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .subtitle {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+  }
+  
+  .grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .card {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    flex: 1 1 30%;
+    max-width: 300px;
+  }
+  
+  .iconWrapper {
+    margin-bottom: 20px;
+  }
+  
+  .cardTitle {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .cardDescription {
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  .content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+  }
+  
+  .text {
+    flex: 1 1 50%;
+  }
+  
+  .paragraph {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .button {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #008385;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
+  .image {
+    flex: 1 1 50%;
+  }
+  
+  .image img {
+    border-radius: 10px;
+  }
+  
+  .accordion {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .accordionItem {
+    margin-bottom: 10px;
+  }
+  
+  .accordionCheckbox {
+    display: none;
+  }
+  
+  .accordionLabel {
+    display: block;
+    background: #005577;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .accordionContent {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+  }
+  
+  .accordionCheckbox:checked ~ .accordionContent {
+    max-height: 200px;
+  }
+  
+  .accordionText {
+    background: #f0f0f0;
+    padding: 10px 20px;
+    border-radius: 0 0 5px 5px;
+  }
+  

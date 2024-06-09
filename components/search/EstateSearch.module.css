@@ -1,0 +1,136 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(#00000000, #2e2e2e00), url('/images/warszawa.jpeg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 2rem;
+    color: black;
+    min-height: 60vh
+  }
+
+  .innerContainer {
+    max-width: 1280px;
+    padding: 1.2rem;
+    margin: 0 auto;
+    width: 80%;
+    background-color: white;
+  }
+
+  .rowTop {
+    display: grid;
+    grid-gap: 16px;
+    grid-template-columns: 2fr 2fr 3fr;
+    margin-bottom: 1rem;
+  }
+
+  .rowBottomLabel {
+    display: grid;
+    grid-gap: 16px;
+    grid-template-columns: repeat(6, 1fr);
+    margin-bottom: 1rem;
+  }
+
+  .rowBottom {
+    display: grid;
+    grid-gap: 16px;
+    grid-template-columns: repeat(6, 1fr);
+  }
+
+  .title {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 16px;
+    text-align: center;
+    color: #000000;
+  }
+
+  .postalCodeInput {
+    width: 100%; /* Make sure the inputs take the full width of the grid cells */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+  }
+
+  .selectInput,
+  .textInput {
+    width: 100%;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    color: #333;
+    padding: 8px;
+  }
+  .numericInput {
+    width: 100%;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    color: #333;
+    padding: 8px;
+  }
+  .employeesInput {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+    width: 100%;
+  }
+
+  .stepDescription {
+    color: #cccccc;
+    font-size: 14px;
+    margin-top: 8px;
+    align-self: stretch;
+    text-align: center;
+  }
+
+  .postalCodesContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 8px;
+    width: 100%;
+  }
+
+  .disabled {
+    opacity: 0.5;
+    transition: opacity 0.3s;
+  }
+
+  .buttonContainer {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 24px;
+  }
+
+  .searchButton {
+    background-color: #fff;
+    color: #17488d;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    border: none;
+    width: 60px;
+    height:60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition:  0.3s ease-in-out;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .searchButton:hover {
+    background-color: #17488d;
+    color: #fff;
+    transform: scale(1.2);
+  }
+
+  .searchIcon {
+    transition: all 0.3s ease-in-out;
+
+  }
+
+
+

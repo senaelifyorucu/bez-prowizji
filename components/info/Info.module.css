@@ -1,0 +1,26 @@
+.sm_data{
+    color: black;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    font-size: larger;
+    background-color: #ffffff96;
+    border-radius: 16px;
+}
+
+.lg_data{
+    color: white;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    grid-column: span 3 / span 3;
+}
+
+.icon{
+    color:#0b4ba6;
+}
