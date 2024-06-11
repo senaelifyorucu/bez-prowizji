@@ -1,4 +1,4 @@
-'use client'
+'use client';
 import { fetchPropertiesData } from '@/lib/properties';
 import Image from 'next/image';
 import React, { useState } from 'react';
@@ -38,17 +38,17 @@ const WarszawaDawniejIDzis = () => {
                 <
                 Image src = { property.imageUrl }
                 alt = { property.name }
-                width = { 300 } // You may want to control this with CSS instead
-                height = { 200 } // Same as above
+                width = { 300 }
+                height = { 200 }
                 className = "image" /
                 >
                 <
-                h2 className = "cardTitle" > { property.name } < /h2> < /
-                div >
+                p > { property.name } < /p> <
+                /div>
             ))
         } <
-        /div> < /
-        div >
+        /div> <
+        /div>
     );
 };
 

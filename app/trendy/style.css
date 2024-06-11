@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #004080;
+    color: white;
+    padding: 10px 20px;
+}
+
+header .logo img {
+    height: 50px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+.trendy h1 {
+    color: #004080;
+}
+
+.filter {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.filter span {
+    margin-right: 10px;
+}
+
+.filter label {
+    margin-right: 10px;
+}
+
+.filter select {
+    margin-left: auto;
+}
+
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+article {
+    width: 30%;
+    margin: 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+article img {
+    max-width: 100%;
+}
+
+article h2 {
+    font-size: 1.2em;
+    color: #004080;
+}
+
+article p {
+    font-size: 0.9em;
+    color: #555;
+}
